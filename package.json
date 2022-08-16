@@ -1,0 +1,22 @@
+{
+  "name": "tweetfetch",
+  "version": "1.0.0",
+  "description": "Simple twitter feed fetcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glynnbird/tweetfetch.git"
+  },
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/glynnbird/tweetfetch/issues"
+  },
+  "homepage": "https://github.com/glynnbird/tweetfetch#readme",
+  "dependencies": {
+    "twitter-api-sdk": "^1.1.0"
+  }
+}
