@@ -8,6 +8,7 @@ const client = new Client(TOKEN)
 // fetch a single account's meta data and recent tweets
 const fetch = async (account) => {
   const retval = {}
+  account = account.replace(/^@/,'')
   try {
     const lookup = await client.users.findUserByUsername(account, {
       'user.fields': ['profile_image_url', 'description']
