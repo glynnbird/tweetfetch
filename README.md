@@ -36,6 +36,8 @@ The response object looks like this:
   ok: true,
   id: '370631455',
   name: 'Middlesbrough FC',
+  description: 'The official Twitter account of Middlesbrough Football Club 🔴⚪️⚽️ #UTB',
+  profile_image_url: 'https://pbs.twimg.com/profile_images/1468985258582458368/NlMGxaXn_normal.jpg',
   username: 'Boro',
   tweets: [{
       link: 'https://twitter.com/Boro/status/1559160836136046597',

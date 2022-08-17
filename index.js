@@ -9,7 +9,9 @@ const client = new Client(TOKEN)
 const fetch = async (account) => {
   const retval = {}
   try {
-    const lookup = await client.users.findUserByUsername(account)
+    const lookup = await client.users.findUserByUsername(account, {
+      'user.fields': ['profile_image_url', 'description']
+    })
     Object.assign(retval, lookup.data)
     const tweets = await client.tweets.usersIdTweets(retval.id, { 
       'tweet.fields': ['created_at'],
