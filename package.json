@@ -1,5 +1,5 @@
 {
-  "name": "tweetfetch",
+  "name": "@glynnbird/tweetfetch",
   "version": "1.0.0",
   "description": "Simple twitter feed fetcher",
   "main": "index.js",
