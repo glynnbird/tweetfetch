@@ -1,6 +1,6 @@
 {
   "name": "@glynnbird/tweetfetch",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple twitter feed fetcher",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/glynnbird/tweetfetch#readme",
   "dependencies": {
-    "twitter-api-sdk": "^1.1.0"
+    "twitter-api-sdk": "^1.2.1"
   }
 }
